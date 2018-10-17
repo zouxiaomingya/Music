@@ -1,13 +1,21 @@
 
 @import './modules/home';
 
+@import './modules/menu';
+
 @import '../static/fonts/iconfont.css';
 
 html,body{
-  margin: 0; padding: 0; width: 100%; height: 100%;background: #fff;
+  margin: 0; 
+  padding: 0; 
+  width: 100%; 
+  height: 100%;
+  background: #fff;
+  font: 14px/1.5 Helvetica,sans-serif;
 }
 ul,li,a,img,span,p,{
   margin: 0;padding: 0; text-decoration: none; list-style: none;
+  color: #333;
 }
 
 

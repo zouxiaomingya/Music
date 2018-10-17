@@ -9,5 +9,4 @@ const routes = {
     '#/search': search_controller
 
 }
-
 module.exports = routes;

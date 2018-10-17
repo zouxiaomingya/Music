@@ -1,12 +1,9 @@
 
 // 实现路由工具
-
 const routes = require('./route');
 
 class Router {
-
     constructor ({ initial }) {
-        
         this.routes = routes; // 路由表
         this.initial = initial || '#/home'; // 默认路由
         // this.currentUrl = ''; // 记录当前的路径（hash值）
@@ -37,7 +34,6 @@ class Router {
             location.hash = this.initial;
             return false;
         }
-
         this.routes[hash].render();
         this.switchTab();
     }

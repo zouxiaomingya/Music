@@ -1,4 +1,4 @@
-console.log(112123133)
+
 
 const Router = require('./router');
 const search_controller = require('./controllers/search_controller');
@@ -9,7 +9,9 @@ const router = new Router({ initial: '#/home' });
 window.router = router;
 router.init();
 
-
-// const list = require('../models/home_music');
-const list = require("../javascripts/models/home_music")
-console.log(list.home_list())
+// const list = require("../javascripts/models/home_music")
+// async function music() {
+//     var data =  await list.home_list()
+//     console.log(data);
+// }
+// music();

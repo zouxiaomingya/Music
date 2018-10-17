@@ -1,9 +1,10 @@
-const profile_template = require('../views/hot.html');
+const hot_template = require('../views/hot.html');
 
 const render = () => {
-    $('.home-container main').html(profile_template);
+    $('#root').html(hot_template);
 }
 
 module.exports = {
     render
 }
+

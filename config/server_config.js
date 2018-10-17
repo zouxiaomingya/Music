@@ -3,7 +3,7 @@ const proxy = require('http-proxy-middleware');
 
 // 开发服务器的配置
 const server_config = {
-    host: 'localhost',
+    host: '10.9.189.98',
     port: 8989,
     livereload: true,
     middleware: [
@@ -14,9 +14,16 @@ const server_config = {
                 '^/music': ''
             }
         }),
-        proxy('/api', {
-            target: 'http://localhost:8989',
+        // proxy('/api', {
+        //     target: 'http://localhost:8989',
+        //     changeOrigin: true,
+        // }),
+        proxy('/lagou', {
+            target: 'https://m.lagou.com',
             changeOrigin: true,
+            pathRewrite: {
+                '^/lagou': ''
+            }
         })
     ]
     // open: true,

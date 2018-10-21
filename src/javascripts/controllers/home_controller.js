@@ -8,7 +8,6 @@ const render = () => {
     $('#root').html(_html);
 };
 
-
 module.exports = {
     render
 }

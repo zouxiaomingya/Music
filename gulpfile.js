@@ -49,7 +49,7 @@ gulp.task('watch',() => {
 
     watch('src/static',(v) => {
         if (v.event === 'unlink'){
-            let _path = v.histtory[0].replace('\src','\dist');
+            let _path = v.history[0].replace('\src','\dist');
             del(_path);
         } else {
             gulp.start(['copy:static']);

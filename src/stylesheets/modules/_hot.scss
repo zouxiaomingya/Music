@@ -1,0 +1,154 @@
+.hot {
+    overflow: hidden;
+
+    .hot-banner {
+        background: url(../../static/images/hot_music_bg_2x.jpg)no-repeat;
+        padding-top: 39%;
+        position: relative;
+        background-size: contain;
+
+        &::after {
+            content: " ";
+            z-index: 1;
+            background-color: rgba(0, 0, 0, .2);
+            position: absolute;
+            left: 0;
+            top: 0;
+            right: 0;
+            bottom: 0;
+        }
+
+        .hot-box {
+            position: absolute;
+            left: 0;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            padding-left: .533333rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            z-index: 2;
+
+            .hot-logo {
+                background: url(../../static/images/index_icon_2x.png)no-repeat;
+                width: 3.786667rem;
+                height: 1.786667rem;
+                background-position: -0.64rem -0.8rem;
+                background-size: 4.426667rem 2.586667rem;
+            }
+
+            .hot-update {
+                margin-top: .266667rem;
+                color: hsla(0, 0%, 100%, .8);
+                font-size: .32rem;
+
+                span {
+                    color: hsla(0, 0%, 100%, .8);
+                }
+            }
+        }
+    }
+
+    .hot-warp {
+
+        width: 100%;
+
+        .hot-recommend__music {
+            width: 100%;
+
+            .music-item {
+                padding-left: .266667rem;
+                display: block;
+
+                .warp {
+                    display: flex;
+                    position: relative;
+
+                    &:after {
+                        content: "";
+                        width: 200%;
+                        height: 200%; 
+                        position: absolute;
+                        z-index: 2;
+                        top: 0;
+                        left: 0;
+                        transform-origin: top left; //变形基点
+                        border-bottom: .013333rem  solid rgba(0, 0, 0, .1);
+                        transform: scale(.5);
+                    }
+
+                    .ranking {
+                        display: flex;
+                        align-items: center;
+                        width: .746667rem;
+                        font-size: .453333rem;
+                        color: #999;
+
+
+                    }
+
+                    .music-message {
+                        padding: .16rem 0;
+                        flex: 1 1 auto;
+                        overflow: hidden;
+
+                        /*超出长度的文字隐藏*/
+                        .title {
+                            overflow: hidden;
+                            /*超出长度的文字隐藏*/
+                            white-space: nowrap;
+                            /*强制不换行*/
+                            font-size: .453333rem;
+                            text-overflow: ellipsis;
+
+                            /*文字隐藏以后添加省略号*/
+                            span {
+                                color: #888;
+                                overflow: hidden;
+
+                            }
+                        }
+
+                        .singer {
+                            font-size: .32rem;
+                            color: #888;
+                        }
+                    }
+
+                    .palyer {
+                        padding: 0 .266667rem;
+                        display: flex;
+                        align-items: center;
+
+                        p {
+                            display: inline-block;
+                            width: .586667rem;
+                            height: .586667rem;
+                            background: url(../../static/images/index_icon_2x.png) no-repeat;
+                            background-size: 4.426667rem 2.586667rem;
+                            background-position: -0.64rem 0;
+                        }
+                    }
+                }
+            }
+
+            .music-item:nth-of-type(1),
+            .music-item:nth-of-type(2),
+            .music-item:nth-of-type(3) {
+                .ranking {
+                    color: #df3436;
+                }
+            }
+        }
+    }
+
+    .lookmore {
+        width: 100%;
+        height: 1.466667rem;
+        line-height: 1.466667rem;
+        text-align: center;
+        color: #999;
+        font-size: .373333rem;
+    }
+}

@@ -10,12 +10,10 @@
     });
     $('.play-lyrics__top--music').html(music_name +' - ');
     $('.play-lyrics__top--singer').html(singer);
-    console.log()
     $('#filter-bg').css({
         background :`url(${picUrl})`,
         backgroundSize: "20rem 20rem"
     })
-    console.log(music_name,picUrl,singer,'asda')
 
     
 
@@ -27,10 +25,8 @@
         }
         //初始化
         init(){
-            
             this.audio.volume = 0.8;
             this.play();
-            console.log(this.audio.volume)
         }
         //播放
         play(){

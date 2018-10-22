@@ -11,7 +11,6 @@ const render = () => {
     $('.header-bg').css({
         backgroundImage :`url(${home_url})`
     })
-    console.log(title, home_url, homt_num)
 }
 module.exports = {
     render

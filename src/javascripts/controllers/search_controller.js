@@ -39,32 +39,12 @@ const render = () => {
         isEmpty(input);
     });
 
-    function getList(data){
-        data.s.forEach(item=>{
-            console.log(item);
-        });
-    }
+   
     //输入框内容改变时
     input.addEventListener('input',function() {
         isEmpty(input);
-        // getList({s:['d','f']});
-        // let _script = document.createElement("script");
-        // _script.src = `Http://suggestion.baidu.com/?wd=${input.value}&cb=getList`;
-        // document.body.appendChild(_script);
-        // _script.remove();
     });
 
-
-    //函数防抖
-    function debounce(callback,content) {
-        let timer;
-        return function () {
-            clearTimeout(timer);
-            timer = setTimeout(function () {
-                callback();
-            }, 500)
-        }
-    }
 
     //判断输入框是否为空
     function isEmpty(input){

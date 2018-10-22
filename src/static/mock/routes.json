@@ -1,4 +1,4 @@
 {
-    "/api/job/list": "/lst",
+    "/api/job/list": "/list",
     "/api/job/list_time": "/list"
 }

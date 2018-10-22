@@ -1,243 +1,172 @@
 {
-    "content": {
-        "data": {
-            "isLogin": false,
-            "page": {
-                "pageSize": 15,
-                "start": "0",
-                "result": [
-                    {
-                        "logger": {
-                            "traceCapable": true,
-                            "name": "com.lagou.entity.mobile.MobilePosition"
-                        },
-                        "positionId": 4438739,
-                        "positionName": "中高级java开发工程师",
-                        "city": "杭州",
-                        "createTime": "今天 14:42",
-                        "salary": "13k-25k",
-                        "companyId": 357605,
-                        "companyLogo": "i/image2/M01/8D/8E/CgotOVubboeAG1L0AACNTwtwYYY906.jpg",
-                        "companyName": "巨胳膊",
-                        "companyFullName": "杭州巨擘科技有限公司"
-                    },
-                    {
-                        "logger": {
-                            "traceCapable": true,
-                            "name": "com.lagou.entity.mobile.MobilePosition"
-                        },
-                        "positionId": 4434533,
-                        "positionName": "UE4开发工程师",
-                        "city": "杭州",
-                        "createTime": "今天 14:42",
-                        "salary": "7k-14k",
-                        "companyId": 132798,
-                        "companyLogo": "i/image/M00/32/D7/CgqKkVdPxYmAINzDAAAexsrs1Vo191.jpg",
-                        "companyName": "凡聚科技",
-                        "companyFullName": "浙江凡聚科技有限公司"
-                    },
-                    {
-                        "logger": {
-                            "traceCapable": true,
-                            "name": "com.lagou.entity.mobile.MobilePosition"
-                        },
-                        "positionId": 4425541,
-                        "positionName": "PHP开发工程师",
-                        "city": "上海",
-                        "createTime": "今天 14:40",
-                        "salary": "8k-15k",
-                        "companyId": 345482,
-                        "companyLogo": "i/image2/M00/46/1C/CgoB5lrUHUuAbLUAAAARBtF9Hhs138.png",
-                        "companyName": "弈新软件",
-                        "companyFullName": "上海弈新信息科技有限公司"
-                    },
-                    {
-                        "logger": {
-                            "traceCapable": true,
-                            "name": "com.lagou.entity.mobile.MobilePosition"
-                        },
-                        "positionId": 4425552,
-                        "positionName": "前端开发工程师",
-                        "city": "上海",
-                        "createTime": "今天 14:40",
-                        "salary": "8k-15k",
-                        "companyId": 345482,
-                        "companyLogo": "i/image2/M00/46/1C/CgoB5lrUHUuAbLUAAAARBtF9Hhs138.png",
-                        "companyName": "弈新软件",
-                        "companyFullName": "上海弈新信息科技有限公司"
-                    },
-                    {
-                        "logger": {
-                            "traceCapable": true,
-                            "name": "com.lagou.entity.mobile.MobilePosition"
-                        },
-                        "positionId": 4424692,
-                        "positionName": "淘宝运营",
-                        "city": "深圳",
-                        "createTime": "今天 14:40",
-                        "salary": "5k-9k",
-                        "companyId": 366084,
-                        "companyLogo": "i/image/M00/8A/E7/CgpEMlrUFgWAWHm-AA-8-wnPBeU117.jpg",
-                        "companyName": "爬爬",
-                        "companyFullName": "深圳市爬爬宠物科技有限公司"
-                    },
-                    {
-                        "logger": {
-                            "traceCapable": true,
-                            "name": "com.lagou.entity.mobile.MobilePosition"
-                        },
-                        "positionId": 4424734,
-                        "positionName": "嵌入式软件工程师",
-                        "city": "深圳",
-                        "createTime": "今天 14:40",
-                        "salary": "7k-12k",
-                        "companyId": 366084,
-                        "companyLogo": "i/image/M00/8A/E7/CgpEMlrUFgWAWHm-AA-8-wnPBeU117.jpg",
-                        "companyName": "爬爬",
-                        "companyFullName": "深圳市爬爬宠物科技有限公司"
-                    },
-                    {
-                        "logger": {
-                            "traceCapable": true,
-                            "name": "com.lagou.entity.mobile.MobilePosition"
-                        },
-                        "positionId": 4431740,
-                        "positionName": "用户运营及分析专家",
-                        "city": "北京",
-                        "createTime": "今天 14:38",
-                        "salary": "25k-35k",
-                        "companyId": 1650,
-                        "companyLogo": "i/image/M00/01/59/Cgp3O1Zn9kCAAW4jAABX8W4A-fw360.jpg",
-                        "companyName": "联想集团",
-                        "companyFullName": "联想（北京）有限公司"
-                    },
-                    {
-                        "logger": {
-                            "traceCapable": true,
-                            "name": "com.lagou.entity.mobile.MobilePosition"
-                        },
-                        "positionId": 4430253,
-                        "positionName": "Consulting Partner",
-                        "city": "北京",
-                        "createTime": "今天 14:38",
-                        "salary": "30k-40k",
-                        "companyId": 1650,
-                        "companyLogo": "i/image/M00/01/59/Cgp3O1Zn9kCAAW4jAABX8W4A-fw360.jpg",
-                        "companyName": "联想集团",
-                        "companyFullName": "联想（北京）有限公司"
-                    },
-                    {
-                        "logger": {
-                            "traceCapable": true,
-                            "name": "com.lagou.entity.mobile.MobilePosition"
-                        },
-                        "positionId": 4425300,
-                        "positionName": "高级结构工程师",
-                        "city": "深圳",
-                        "createTime": "今天 14:38",
-                        "salary": "10k-20k",
-                        "companyId": 125911,
-                        "companyLogo": "i/image/M00/23/44/Cgp3O1cXHIqAeaZIAAA0WI9VaCE699.png",
-                        "companyName": "兴天实业",
-                        "companyFullName": "兴天实业（深圳）有限公司"
-                    },
-                    {
-                        "logger": {
-                            "traceCapable": true,
-                            "name": "com.lagou.entity.mobile.MobilePosition"
-                        },
-                        "positionId": 4406993,
-                        "positionName": "UI设计实习生",
-                        "city": "北京",
-                        "createTime": "今天 14:34",
-                        "salary": "2k-3k",
-                        "companyId": 520,
-                        "companyLogo": "image1/M00/00/03/CgYXBlTUV_uAY85GAAAVtFKXIv8322.jpg",
-                        "companyName": "小米",
-                        "companyFullName": "北京小米科技有限责任公司"
-                    },
-                    {
-                        "logger": {
-                            "traceCapable": true,
-                            "name": "com.lagou.entity.mobile.MobilePosition"
-                        },
-                        "positionId": 4397847,
-                        "positionName": "副总裁助理（海外业务方向）",
-                        "city": "北京",
-                        "createTime": "今天 14:34",
-                        "salary": "10k-20k",
-                        "companyId": 520,
-                        "companyLogo": "image1/M00/00/03/CgYXBlTUV_uAY85GAAAVtFKXIv8322.jpg",
-                        "companyName": "小米",
-                        "companyFullName": "北京小米科技有限责任公司"
-                    },
-                    {
-                        "logger": {
-                            "traceCapable": true,
-                            "name": "com.lagou.entity.mobile.MobilePosition"
-                        },
-                        "positionId": 4429478,
-                        "positionName": "DSP音频工程师",
-                        "city": "广州",
-                        "createTime": "今天 14:33",
-                        "salary": "10k-20k",
-                        "companyId": 68149,
-                        "companyLogo": "image1/M00/28/36/CgYXBlVemjCAFTClAAAeAgOhVPc133.jpg",
-                        "companyName": "拿火音乐",
-                        "companyFullName": "广州市拿火信息科技有限公司"
-                    },
-                    {
-                        "logger": {
-                            "traceCapable": true,
-                            "name": "com.lagou.entity.mobile.MobilePosition"
-                        },
-                        "positionId": 4396961,
-                        "positionName": "音频算法工程师",
-                        "city": "广州",
-                        "createTime": "今天 14:33",
-                        "salary": "10k-20k",
-                        "companyId": 68149,
-                        "companyLogo": "image1/M00/28/36/CgYXBlVemjCAFTClAAAeAgOhVPc133.jpg",
-                        "companyName": "拿火音乐",
-                        "companyFullName": "广州市拿火信息科技有限公司"
-                    },
-                    {
-                        "logger": {
-                            "traceCapable": true,
-                            "name": "com.lagou.entity.mobile.MobilePosition"
-                        },
-                        "positionId": 4436543,
-                        "positionName": "高级用户运营经理",
-                        "city": "北京",
-                        "createTime": "今天 14:33",
-                        "salary": "20k-30k",
-                        "companyId": 133382,
-                        "companyLogo": "i/image2/M01/78/28/CgotOVtqUj-AfFsQAAAnzcBVDMA325.png",
-                        "companyName": "百乘集团",
-                        "companyFullName": "北京百乘金科科技有限公司"
-                    },
-                    {
-                        "logger": {
-                            "traceCapable": true,
-                            "name": "com.lagou.entity.mobile.MobilePosition"
-                        },
-                        "positionId": 4436663,
-                        "positionName": "高级产品运营经理",
-                        "city": "北京",
-                        "createTime": "今天 14:33",
-                        "salary": "20k-30k",
-                        "companyId": 133382,
-                        "companyLogo": "i/image2/M01/78/28/CgotOVtqUj-AfFsQAAAnzcBVDMA325.png",
-                        "companyName": "百乘集团",
-                        "companyFullName": "北京百乘金科科技有限公司"
-                    }
-                ],
-                "totalCount": "324881",
-                "pageNo": 1
-            }
+    "album": [{
+            "albumname": "耳朵",
+            "come":"耳朵",
+            "artistname": "李荣浩",
+            "url" :"http://m10.music.126.net/20181021205114/2551965a5d93bf4ab54429515fdbca0e/ymusic/1ff7/0467/ec18/b60257e908639de6b675b4bd68a33aea.mp3",
+            "picUrl":"http://p2.music.126.net/tt8xwK-ASC2iqXNUXYKoDQ==/109951163606377163.jpg",
+            "alia":""
         },
-        "rows": []
-    },
-    "message": "第1页数据,每页15条, 查询成功!",
-    "state": 1
+        {
+            "albumname": "沙漠骆驼",
+            "come":"沙漠骆驼",
+            "artistname": "展展与罗罗",
+            "url":"http://m10.music.126.net/20181021205237/c4da9b32d0e45c8bfe05cc64364a356b/ymusic/f351/ae94/e2e6/9688d9e8a5fdb917efbadbb57b5e6ecd.mp3",
+            "picUrl":"http://p2.music.126.net/oov7j64hTKZSm0CEUkRNoQ==/109951163111639178.jpg",
+            "alia":""
+        },
+        {
+            "albumname": "年少有为",
+            "come":"耳朵",
+            "artistname": "李荣浩",
+            "url":"http://m10.music.126.net/20181021205314/9e964bd9efcaee587b8481bd911c137c/ymusic/4498/dc33/0010/92deb9f28706c65c5a0001b0e977306f.mp3",
+            "picUrl":"http://p2.music.126.net/tt8xwK-ASC2iqXNUXYKoDQ==/109951163606377163.jpg",
+            "alia":"(电视剧《创业时代》插曲)"
+        },
+        {
+            "albumname": "可不可以",
+            "come":"可不可以",
+            "artistname": "张紫豪",
+            "url":"http://m10.music.126.net/20181021205349/02d8acadf814f732ac39e7f68a4e835b/ymusic/341e/9cc2/7c4f/b13ac6e62d3625524dde95fd1b1628bf.mp3",
+            "picUrl":"http://p2.music.126.net/WafK2OQfEtqXitdDXJ772Q==/109951163252847249.jpg",
+            "alia":"(电影《昨日青空》青春成长曲)"
+            
+        },
+
+        {
+            "albumname": "盗将行",
+            "come":"粥请客（二)",
+            "artistname": "花粥 / 马雨阳",
+            "url":"http://m10.music.126.net/20181021203416/2363f23fdd780f268ab46fd6ac88173f/ymusic/341e/9cc2/7c4f/b13ac6e62d3625524dde95fd1b1628bf.mp3",
+            "picUrl":"http://p2.music.126.net/-qHPT3rhxDlu5zQV9NcQ-A==/109951163555860423.jpg",
+            "alia":""
+        },
+        {
+            "albumname": "光年之外",
+            "come":"光年之外",
+            "artistname": "G.E.M.邓紫棋",
+            "url":"http://m10.music.126.net/20181021203703/119543552f34da21c394dcdd22f3caaa/ymusic/1606/426f/10a6/a01cace34f2df73c384bbcfe3e30b827.mp3",
+            "picUrl":"http://p2.music.126.net/fkqFqMaEt0CzxYS-0NpCog==/18587244069235039.jpg",
+            "alia":""
+        },
+        {
+            "albumname": "不染",
+            "come":"不染",
+            "artistname": "毛不易",
+            "url":"",
+            "picUrl":"",
+            "alia":"(电视剧《香蜜沉沉烬如霜》主题曲)"
+        },
+        {
+            "albumname": "DJ万万岁",
+            "weight": "60260",
+            "artistname": "王绎龙",
+            "resource_type_ext": "0",
+            "albumid": "32996738",
+            "url":"",
+            "picUrl":"",
+            "alia":""
+        },
+        {
+            "albumname": "爱情伤了你爱情害了我",
+            "weight": "45960",
+            "artistname": "大庆小芳",
+            "resource_type_ext": "0",
+            "albumid": "38422544",
+            "url":"",
+            "picUrl":"",
+            "alia":""
+        },
+        {
+            "albumname": "杜德伟独领风骚20年新歌精选辑",
+            "weight": "36630",
+            "artistname": "杜德伟",
+            "resource_type_ext": "0",
+            "albumid": "63935",
+            "url":"",
+            "picUrl":"",
+            "alia":""
+        },
+        {
+            "albumname": "弹起我心爱的土琵琶",
+            "weight": "35370",
+            "artistname": "梦鸽",
+            "resource_type_ext": "0",
+            "albumid": "84912874",
+            "url":"",
+            "picUrl":"",
+            "alia":""
+        },
+        {
+            "albumname": "抖音街拍",
+            "weight": "33870",
+            "artistname": "颜妹",
+            "resource_type_ext": "0",
+            "albumid": "602547444",
+            "url":"",
+            "picUrl":"",
+            "alia":""
+        }
+        ,
+        {
+            "albumname": "爱相随",
+            "weight": "98040",
+            "artistname": "周华健",
+            "resource_type_ext": "0",
+            "albumid": "65731",
+            "url":"",
+            "picUrl":"",
+            "alia":""
+        },
+        {
+            "albumname": "爱的代价",
+            "weight": "66150",
+            "artistname": "张艾嘉",
+            "resource_type_ext": "0",
+            "albumid": "66549",
+            "url":"",
+            "picUrl":"",
+            "alia":""
+        },
+        {
+            "albumname": "爱情万岁",
+            "weight": "57530",
+            "artistname": "五月天",
+            "resource_type_ext": "0",
+            "albumid": "73266",
+            "url":"",
+            "picUrl":"",
+            "alia":""
+        },
+        {
+            "albumname": "A Time For Everything",
+            "weight": "48060",
+            "artistname": "陈洁仪",
+            "resource_type_ext": "0",
+            "albumid": "604972720",
+            "url":"",
+            "picUrl":"",
+            "alia":""
+        },
+        {
+            "albumname": "爱情伤了你爱情害了我",
+            "weight": "45960",
+            "artistname": "大庆小芳",
+            "resource_type_ext": "0",
+            "albumid": "38422544",
+            "url":"",
+            "picUrl":"",
+            "alia":""
+        },
+        {
+            "albumname": "阿弥陀佛",
+            "weight": "44150",
+            "artistname": "路勇",
+            "resource_type_ext": "0",
+            "albumid": "120114368",
+            "url":"",
+            "picUrl":"",
+            "alia":""
+        }
+    ]
 }

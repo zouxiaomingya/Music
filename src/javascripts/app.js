@@ -4,19 +4,32 @@ const Router = require('./router');
 // // 渲染视图
 // search_controller.render();
 // 启动路由
-const home_tab = require('./controllers/home_tab');
 
-home_tab.render();
 
 const router = new Router({ initial: '#/home' });
-window.router = router;
+window.router = router; 
 router.init();
 
+$('body').on('tap','.music-item',function(){
+    let picUrl = $(this).attr('imgurl');
+    let url = $(this).attr('url');
+    let music = $(this).attr('music');
+    let singer = $(this).attr('singer')
+    localStorage.setItem("picUrl",picUrl);
+    localStorage.setItem("url",url);
+    localStorage.setItem("music",music);
+    localStorage.setItem("singer",singer);
+})
 
-// const list = require("../javascripts/models/home_music")
-// async function music() {
-//     var data =  await list.home_list()
-//     console.log(data);
-// }
-// music();
+const play_constroller = require('./controllers/menu_controller');
+const menu_constroller = require('./controllers/play_controller');
+console.log(play_constroller)
+play_constroller.render();
+menu_constroller.render();
 
+
+import BScroll from 'better-scroll';
+// const BScroll = require('better-scroll')
+let scroll = new BScroll('.wrapper'); 
+
+ 

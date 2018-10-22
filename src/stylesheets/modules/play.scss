@@ -1,3 +1,19 @@
+
+html,body{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  font: 14px/1.5 Helvetica,sans-serif;
+  position: relative;
+}
+ul,li,a,img,span,p{
+  margin: 0;padding: 0; text-decoration: none; list-style: none;
+  color: #333;
+}
+
+
 $base-px: 75;
 .border-bottom {
   border-bottom: .013333rem solid rgba(255,255,255, 0.2);
@@ -17,15 +33,14 @@ $base-px: 75;
   box-sizing: content-box;
   position: relative;
   overflow: hidden;
+  z-index: 1;
 
   // 高斯模糊
-  &::before {
-    content: "";
-    display: block;
+  #filter-bg {
     width: 100%;
     height: 100%;
     position: absolute;
-    top: 0;
+    top: 0; z-index: 0;
     background: url('http://p1.music.126.net/BnMkmZjsw6SQoSozuSoSdg==/109951163606632417.webp?imageView&thumbnail=720y720&quality=75&tostatic=0&type=webp') center top no-repeat;
     background-size: 20rem 20rem;
     filter: blur(20px);
@@ -39,16 +54,22 @@ $base-px: 75;
     position: absolute;
     top: 0;
     background: rgba(0, 0, 0, 0.6);
+    z-index: 2;
   }
 
   // 主体
-  .play-content {
+  .wrapper{
     width: 100%;
-    height: 16rem;
+    height: 1200rem / $base-px;
     overflow: hidden;
     position: absolute;
-    z-index: 1;
-
+    top: 0;
+    z-index: 3;
+  }
+  .play-content {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
 
     .play-top {
       display: block;
@@ -99,10 +120,10 @@ $base-px: 75;
         background-size: 2.56rem 3.653333rem;
         z-index: 2;
       }
-      //播放暂停
+
       &::after {
         content: "";
-        display: block;
+        display: none;
         width: 1.493333rem;
         height: 1.493333rem;
         position: absolute;
@@ -113,7 +134,15 @@ $base-px: 75;
         z-index: 2;
       }
 
-      //旋转图片
+      @keyframes Rotate {
+        0%{
+          transform: rotate(0deg);
+        }
+        100%{
+          transform: rotate(360deg);
+        }
+      }
+      // 黑胶唱片背景
       .play-circle__bg {
         width: 7.893333rem;
         height: 7.893333rem;
@@ -123,6 +152,7 @@ $base-px: 75;
         background: url('../../static/images/disc-ip6.png') center no-repeat;
         background-size: 100% 100%;
         border-radius: 50%;
+        //旋转图片
         img {
           width: 4.906667rem;
           height: 4.906667rem;
@@ -133,8 +163,11 @@ $base-px: 75;
           top: 1.493333rem;
           left: 1.493333rem;
         }
-        // 黑胶唱片
-        &:after {
+        img.playRotate{
+          animation: Rotate 25s linear infinite;
+        }
+        // 黑胶唱片白光
+        &::after {
           content: " ";
           display: block;
           width: 7.893333rem;
@@ -146,9 +179,20 @@ $base-px: 75;
           border-radius: 50%;
           background: url('../../static/images/disc_light-ip6.png') center no-repeat;
           background-size: 100% 100%;
+          animation: Rotate 20s infinite;
         }
       }
+      .playRotate::after{
+        animation-play-state : running;
+      }
+      .pauseRotate::after{
+        animation-play-state : paused;
+      }
 
+    }
+    //播放暂停
+    .isPlay::after {
+      display: block;
     }
 
     //歌词
@@ -494,7 +538,7 @@ $base-px: 75;
       color: #d33a31;
     }
 
-    .play-bottom__download--sofrware {
+    .play-bottom__download--software {
       background: #d33a31;
       color: #fff;
     }

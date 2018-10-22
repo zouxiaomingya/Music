@@ -17,10 +17,10 @@
   },
   "scripts": {
     "dev": "gulp",
-    "mock": "json-server ./src/static/mock/mock.js -r ./src/static/mock/routes.json",
-    "start": "concurrently \"npm run mock\"  \"npm run dev\""
+    "start": "npm run dev"
   },
   "dependencies": {
+    "better-scroll": "^1.13.2",
     "yo3": "^3.1.8"
   }
 }

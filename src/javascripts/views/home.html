@@ -2,55 +2,34 @@
     <div class="home-warp">
         <p class="home-recommend__title">推荐歌单</p>
         <div class="home-recommend__product">
-            <a href="" class="product-message">
-                <img class="product-img" src="http://p2.music.126.net/1CbAn1qn-zbcxKD2O37ycQ==/109951163605819623.webp?imageView&thumbnail=246x0&quality=75&tostatic=0&type=webp"
+            {{#each alldata.img}}
+            <a href="../../menu.html" class="product-message"  >
+                <img class="product-img" src="{{this.picUrl}}"
                     alt="">
-                <p class="product-name">华语速爆新歌</p>
-                <span class="product-times">2.7亿</span>
+                <p class="product-name">{{this.title}}</p>
+                <span class="product-times">{{this.num}}万</span>
             </a>
-            <a href="" class="product-message">
-                <img class="product-img" src="http://p2.music.126.net/1CbAn1qn-zbcxKD2O37ycQ==/109951163605819623.webp?imageView&thumbnail=246x0&quality=75&tostatic=0&type=webp"
-                    alt="">
-                <p class="product-name">华语速爆新歌</p>
-                <span class="product-times">2.7亿</span>
-            </a>
-            <a href="" class="product-message">
-                <img class="product-img" src="http://p2.music.126.net/1CbAn1qn-zbcxKD2O37ycQ==/109951163605819623.webp?imageView&thumbnail=246x0&quality=75&tostatic=0&type=webp"
-                    alt="">
-                <p class="product-name">华语速爆新歌</p>
-                <span class="product-times">2.7亿</span>
-            </a>
-            <a href="" class="product-message">
-                <img class="product-img" src="http://p2.music.126.net/1CbAn1qn-zbcxKD2O37ycQ==/109951163605819623.webp?imageView&thumbnail=246x0&quality=75&tostatic=0&type=webp"
-                    alt="">
-                <p class="product-name">华语速爆新歌</p>
-                <span class="product-times">2.7亿</span>
-            </a>
-            <a href="" class="product-message">
-                <img class="product-img" src="http://p2.music.126.net/1CbAn1qn-zbcxKD2O37ycQ==/109951163605819623.webp?imageView&thumbnail=246x0&quality=75&tostatic=0&type=webp"
-                    alt="">
-                <p class="product-name">华语速爆新歌</p>
-                <span class="product-times">2.7亿</span>
-            </a>
-            <a href="" class="product-message">
-                <img class="product-img" src="http://p2.music.126.net/1CbAn1qn-zbcxKD2O37ycQ==/109951163605819623.webp?imageView&thumbnail=246x0&quality=75&tostatic=0&type=webp"
-                    alt="">
-                <p class="product-name">华语速爆新歌</p>
-                <span class="product-times">2.7亿</span>
+            {{/each}} 
+            <a href="../../menu.html" class="product-message">
+                    <img class="product-img" src="https://y.gtimg.cn/music/photo/radio/track_radio_199_13_1.jpg?max_age=2592000"
+                        alt="">
+                    <p class="product-name">❤️【100首适合书刷题的纯音】</p>
+                    <span class="product-times">124万</span>
             </a>
         </div>
         <p class="home-recommend__title">最新音乐</p>
         <div class="home-recommend__music">
-            <a class="music-item" href="">
+            {{#each alldata.music}}
+            <a class="music-item" href="../../play.html" Url = '{{this.url}}' imgUrl = '{{this.picUrl}}' music='{{this.albumname}}' singer = '{{this.artistname}}'>
                 <div class="warp">
                     <div class="music-message">
                         <p class="title">
-                            从无到有
-                            <span>(电视剧《创业时代》片asfffffdad asasdadasd)</span>
+                            {{this.albumname}}
+                            <span> {{this.alia}}</span>
                         </p>
                         <p class="singer">
-                            <i>A</i>
-                            毛不易-从无到有
+                            <i></i>
+                            {{this.artistname}}-{{this.come}}
                         </p>
                     </div>
                     <div class="palyer">
@@ -58,24 +37,7 @@
                     </div>
                 </div>
             </a>
-            <a class="music-item" href="">
-                <div class="warp">
-                    <div class="music-message">
-                        <p class="title">
-                            从无到有
-                            <span>(电视剧《创业时代》片asfffffdad asasdadasd)</span>
-                        </p>
-                        <p class="singer">
-                            <i>A</i>
-                            毛不易-从无到有
-                        </p>
-                    </div>
-                    <div class="palyer">
-                        <span class="bg"></span>
-                    </div>
-                </div>
-            </a>
-            
+            {{/each}} 
         </div>
     </div>
     <footer class="footer">
@@ -84,7 +46,9 @@
                 <img src="../../static/images/logo_big.jpg" alt="">
                 <span class="logoname">网易云音乐</span>
             </div>
-            <p class="openapp">打开APP，发现更多好音乐 ></p>
+            <a href="../../download.html">
+                <p class="openapp">打开APP，发现更多好音乐 ></p>
+            </a>
             <p class="copyright">网易公司版权所有©1997-2018 杭州乐读科技有限公司运营</p>
         </div>
     </footer>

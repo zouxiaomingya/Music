@@ -21,10 +21,7 @@ $('body').on('tap','.music-item',function(){
     localStorage.setItem("singer",singer);
 })
 
-const play_constroller = require('./controllers/menu_controller');
-const menu_constroller = require('./controllers/play_controller');
-console.log(play_constroller)
-play_constroller.render();
+const menu_constroller = require('./controllers/menu_controller');
 menu_constroller.render();
 
 

@@ -1,18 +1,58 @@
 {
     "album": [{
-            "albumname": "耳朵",
-            "come":"耳朵",
-            "artistname": "李荣浩",
-            "url" :"http://m10.music.126.net/20181021205114/2551965a5d93bf4ab54429515fdbca0e/ymusic/1ff7/0467/ec18/b60257e908639de6b675b4bd68a33aea.mp3",
-            "picUrl":"http://p2.music.126.net/tt8xwK-ASC2iqXNUXYKoDQ==/109951163606377163.jpg",
+            "albumname": "浮夸",
+            "come":"浮夸",
+            "artistname": "陈奕迅",
+            "url" :"http://localhost:9999/static/music/music01.mp3",
+            "picUrl":"http://p3.music.126.net/nILBk4DaE3yV__25uq-5GQ==/18641120139241412.webp?imageView&thumbnail=750x0&quality=75&tostatic=0&type=webp",
             "alia":""
         },
         {
-            "albumname": "沙漠骆驼",
-            "come":"沙漠骆驼",
-            "artistname": "展展与罗罗",
-            "url":"http://m10.music.126.net/20181021205237/c4da9b32d0e45c8bfe05cc64364a356b/ymusic/f351/ae94/e2e6/9688d9e8a5fdb917efbadbb57b5e6ecd.mp3",
-            "picUrl":"http://p2.music.126.net/oov7j64hTKZSm0CEUkRNoQ==/109951163111639178.jpg",
+            "albumname": "悟空",
+            "come":"悟空",
+            "artistname": "戴荃",
+            "url":"http://localhost:9999/static/music/music02.mp3",
+            "picUrl":"http://p2.music.126.net/gn4pPKc_Wk3EyByfi86lUQ==/3333719255417035.webp?imageView&thumbnail=720y720&quality=75&tostatic=0&type=webp",
+            "alia":""
+        },
+        {
+            "albumname": "老男孩",
+            "come":"老男孩",
+            "artistname": "筷子兄弟",
+            "url":"http://localhost:9999/static/music/music03.mp3",
+            "picUrl":"http://p3.music.126.net/qw2y3-ZsYWuqCbvTCfd_JQ==/135239930232269.webp?imageView&thumbnail=750x0&quality=75&tostatic=0&type=webp",
+            "alia":""
+        },
+        {
+            "albumname": "慢一点",
+            "come":"慢一点",
+            "artistname": "林宥嘉",
+            "url":"http://localhost:9999/static/music/music04.mp3",
+            "picUrl":"http://p4.music.126.net/ZAP_c5J1QJEvFrR9Lq-adw==/109951163186202231.webp?imageView&thumbnail=750x0&quality=75&tostatic=0&type=webp",
+            "alia":""
+        },
+        {
+            "albumname": "你不是真正的快乐",
+            "come":"你不是真正的快乐",
+            "artistname": "五月天",
+            "url":"http://localhost:9999/static/music/music05.mp3",
+            "picUrl":"http://p3.music.126.net/M_M2ubNRIQpCfyNdS9Kteg==/109951163440097839.webp?imageView&thumbnail=750x0&quality=75&tostatic=0&type=webp",
+            "alia":""
+        },
+        {
+            "albumname": "爱我别走",
+            "come":"爱我别走",
+            "artistname": "张震岳",
+            "url":"http://localhost:9999/static/music/music06.mp3",
+            "picUrl":"http://p4.music.126.net/inx_LaHuDMYK42zYxC0seQ==/6042915906863903.webp?imageView&thumbnail=750x0&quality=75&tostatic=0&type=webp",
+            "alia":""
+        },
+        {
+            "albumname": "以后的以后",
+            "come":"以后的以后",
+            "artistname": "庄心妍",
+            "url":"http://localhost:9999/static/music/music07.mp3",
+            "picUrl":"http://p3.music.126.net/VnjaaUbtIMi3kLc5-80iJw==/18743374719450826.webp?imageView&thumbnail=750x0&quality=75&tostatic=0&type=webp",
             "alia":""
         },
         {

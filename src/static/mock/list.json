@@ -1,0 +1,212 @@
+{
+    "album": [{
+            "albumname": "浮夸",
+            "come":"浮夸",
+            "artistname": "陈奕迅",
+            "url" :"http://localhost:9999/static/music/music01.mp3",
+            "picUrl":"http://p3.music.126.net/nILBk4DaE3yV__25uq-5GQ==/18641120139241412.webp?imageView&thumbnail=750x0&quality=75&tostatic=0&type=webp",
+            "alia":""
+        },
+        {
+            "albumname": "悟空",
+            "come":"悟空",
+            "artistname": "戴荃",
+            "url":"http://localhost:9999/static/music/music02.mp3",
+            "picUrl":"http://p2.music.126.net/gn4pPKc_Wk3EyByfi86lUQ==/3333719255417035.webp?imageView&thumbnail=720y720&quality=75&tostatic=0&type=webp",
+            "alia":""
+        },
+        {
+            "albumname": "老男孩",
+            "come":"老男孩",
+            "artistname": "筷子兄弟",
+            "url":"http://localhost:9999/static/music/music03.mp3",
+            "picUrl":"http://p3.music.126.net/qw2y3-ZsYWuqCbvTCfd_JQ==/135239930232269.webp?imageView&thumbnail=750x0&quality=75&tostatic=0&type=webp",
+            "alia":""
+        },
+        {
+            "albumname": "慢一点",
+            "come":"慢一点",
+            "artistname": "林宥嘉",
+            "url":"http://localhost:9999/static/music/music04.mp3",
+            "picUrl":"http://p4.music.126.net/ZAP_c5J1QJEvFrR9Lq-adw==/109951163186202231.webp?imageView&thumbnail=750x0&quality=75&tostatic=0&type=webp",
+            "alia":""
+        },
+        {
+            "albumname": "你不是真正的快乐",
+            "come":"你不是真正的快乐",
+            "artistname": "五月天",
+            "url":"http://localhost:9999/static/music/music05.mp3",
+            "picUrl":"http://p3.music.126.net/M_M2ubNRIQpCfyNdS9Kteg==/109951163440097839.webp?imageView&thumbnail=750x0&quality=75&tostatic=0&type=webp",
+            "alia":""
+        },
+        {
+            "albumname": "爱我别走",
+            "come":"爱我别走",
+            "artistname": "张震岳",
+            "url":"http://localhost:9999/static/music/music06.mp3",
+            "picUrl":"http://p4.music.126.net/inx_LaHuDMYK42zYxC0seQ==/6042915906863903.webp?imageView&thumbnail=750x0&quality=75&tostatic=0&type=webp",
+            "alia":""
+        },
+        {
+            "albumname": "以后的以后",
+            "come":"以后的以后",
+            "artistname": "庄心妍",
+            "url":"http://localhost:9999/static/music/music07.mp3",
+            "picUrl":"http://p3.music.126.net/VnjaaUbtIMi3kLc5-80iJw==/18743374719450826.webp?imageView&thumbnail=750x0&quality=75&tostatic=0&type=webp",
+            "alia":""
+        },
+        {
+            "albumname": "年少有为",
+            "come":"耳朵",
+            "artistname": "李荣浩",
+            "url":"http://m10.music.126.net/20181021205314/9e964bd9efcaee587b8481bd911c137c/ymusic/4498/dc33/0010/92deb9f28706c65c5a0001b0e977306f.mp3",
+            "picUrl":"http://p2.music.126.net/tt8xwK-ASC2iqXNUXYKoDQ==/109951163606377163.jpg",
+            "alia":"(电视剧《创业时代》插曲)"
+        },
+        {
+            "albumname": "可不可以",
+            "come":"可不可以",
+            "artistname": "张紫豪",
+            "url":"http://m10.music.126.net/20181021205349/02d8acadf814f732ac39e7f68a4e835b/ymusic/341e/9cc2/7c4f/b13ac6e62d3625524dde95fd1b1628bf.mp3",
+            "picUrl":"http://p2.music.126.net/WafK2OQfEtqXitdDXJ772Q==/109951163252847249.jpg",
+            "alia":"(电影《昨日青空》青春成长曲)"
+            
+        },
+
+        {
+            "albumname": "盗将行",
+            "come":"粥请客（二)",
+            "artistname": "花粥 / 马雨阳",
+            "url":"http://m10.music.126.net/20181021203416/2363f23fdd780f268ab46fd6ac88173f/ymusic/341e/9cc2/7c4f/b13ac6e62d3625524dde95fd1b1628bf.mp3",
+            "picUrl":"http://p2.music.126.net/-qHPT3rhxDlu5zQV9NcQ-A==/109951163555860423.jpg",
+            "alia":""
+        },
+        {
+            "albumname": "光年之外",
+            "come":"光年之外",
+            "artistname": "G.E.M.邓紫棋",
+            "url":"http://m10.music.126.net/20181021203703/119543552f34da21c394dcdd22f3caaa/ymusic/1606/426f/10a6/a01cace34f2df73c384bbcfe3e30b827.mp3",
+            "picUrl":"http://p2.music.126.net/fkqFqMaEt0CzxYS-0NpCog==/18587244069235039.jpg",
+            "alia":""
+        },
+        {
+            "albumname": "不染",
+            "come":"不染",
+            "artistname": "毛不易",
+            "url":"",
+            "picUrl":"",
+            "alia":"(电视剧《香蜜沉沉烬如霜》主题曲)"
+        },
+        {
+            "albumname": "DJ万万岁",
+            "weight": "60260",
+            "artistname": "王绎龙",
+            "resource_type_ext": "0",
+            "albumid": "32996738",
+            "url":"",
+            "picUrl":"",
+            "alia":""
+        },
+        {
+            "albumname": "爱情伤了你爱情害了我",
+            "weight": "45960",
+            "artistname": "大庆小芳",
+            "resource_type_ext": "0",
+            "albumid": "38422544",
+            "url":"",
+            "picUrl":"",
+            "alia":""
+        },
+        {
+            "albumname": "杜德伟独领风骚20年新歌精选辑",
+            "weight": "36630",
+            "artistname": "杜德伟",
+            "resource_type_ext": "0",
+            "albumid": "63935",
+            "url":"",
+            "picUrl":"",
+            "alia":""
+        },
+        {
+            "albumname": "弹起我心爱的土琵琶",
+            "weight": "35370",
+            "artistname": "梦鸽",
+            "resource_type_ext": "0",
+            "albumid": "84912874",
+            "url":"",
+            "picUrl":"",
+            "alia":""
+        },
+        {
+            "albumname": "抖音街拍",
+            "weight": "33870",
+            "artistname": "颜妹",
+            "resource_type_ext": "0",
+            "albumid": "602547444",
+            "url":"",
+            "picUrl":"",
+            "alia":""
+        }
+        ,
+        {
+            "albumname": "爱相随",
+            "weight": "98040",
+            "artistname": "周华健",
+            "resource_type_ext": "0",
+            "albumid": "65731",
+            "url":"",
+            "picUrl":"",
+            "alia":""
+        },
+        {
+            "albumname": "爱的代价",
+            "weight": "66150",
+            "artistname": "张艾嘉",
+            "resource_type_ext": "0",
+            "albumid": "66549",
+            "url":"",
+            "picUrl":"",
+            "alia":""
+        },
+        {
+            "albumname": "爱情万岁",
+            "weight": "57530",
+            "artistname": "五月天",
+            "resource_type_ext": "0",
+            "albumid": "73266",
+            "url":"",
+            "picUrl":"",
+            "alia":""
+        },
+        {
+            "albumname": "A Time For Everything",
+            "weight": "48060",
+            "artistname": "陈洁仪",
+            "resource_type_ext": "0",
+            "albumid": "604972720",
+            "url":"",
+            "picUrl":"",
+            "alia":""
+        },
+        {
+            "albumname": "爱情伤了你爱情害了我",
+            "weight": "45960",
+            "artistname": "大庆小芳",
+            "resource_type_ext": "0",
+            "albumid": "38422544",
+            "url":"",
+            "picUrl":"",
+            "alia":""
+        },
+        {
+            "albumname": "阿弥陀佛",
+            "weight": "44150",
+            "artistname": "路勇",
+            "resource_type_ext": "0",
+            "albumid": "120114368",
+            "url":"",
+            "picUrl":"",
+            "alia":""
+        }
+    ]
+}

@@ -1,0 +1,55 @@
+<div class="home">
+    <div class="home-warp">
+        <p class="home-recommend__title">推荐歌单</p>
+        <div class="home-recommend__product">
+            {{#each alldata.img}}
+            <a href="../../menu.html" class="product-message"  >
+                <img class="product-img" src="{{this.picUrl}}"
+                    alt="">
+                <p class="product-name">{{this.title}}</p>
+                <span class="product-times">{{this.num}}万</span>
+            </a>
+            {{/each}} 
+            <a href="../../menu.html" class="product-message">
+                    <img class="product-img" src="https://y.gtimg.cn/music/photo/radio/track_radio_199_13_1.jpg?max_age=2592000"
+                        alt="">
+                    <p class="product-name">❤️【100首适合书刷题的纯音】</p>
+                    <span class="product-times">124万</span>
+            </a>
+        </div>
+        <p class="home-recommend__title">最新音乐</p>
+        <div class="home-recommend__music">
+            {{#each alldata.music}}
+            <a class="music-item" href="../../play.html" Url = '{{this.url}}' imgUrl = '{{this.picUrl}}' music='{{this.albumname}}' singer = '{{this.artistname}}'>
+                <div class="warp">
+                    <div class="music-message">
+                        <p class="title">
+                            {{this.albumname}}
+                            <span> {{this.alia}}</span>
+                        </p>
+                        <p class="singer">
+                            <i></i>
+                            {{this.artistname}}-{{this.come}}
+                        </p>
+                    </div>
+                    <div class="palyer">
+                        <span class="bg"></span>
+                    </div>
+                </div>
+            </a>
+            {{/each}} 
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="warp">
+            <div class="logo-warp">
+                <img src="../../static/images/logo_big.jpg" alt="">
+                <span class="logoname">网易云音乐</span>
+            </div>
+            <a href="../../download.html">
+                <p class="openapp">打开APP，发现更多好音乐 ></p>
+            </a>
+            <p class="copyright">网易公司版权所有©1997-2018 杭州乐读科技有限公司运营</p>
+        </div>
+    </footer>
+</div>

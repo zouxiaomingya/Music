@@ -1,0 +1,190 @@
+
+
+.home {
+    overflow: hidden;
+    .home-warp {
+        padding-top: 2.773333rem;
+        width: 100%;
+
+        .home-recommend__title {
+            padding-top: .533333rem;
+            position: relative;
+            padding-left: .24rem;
+            margin-bottom: .373333rem;
+            font-size: .453333rem;
+            height: .533333rem;
+            line-height: .533333rem;
+        }
+
+        .home-recommend__title::after {
+            content: " ";
+            position: absolute;
+            left: 0;
+            top: 50%;
+            margin-top: 0.053333rem;
+            width: .053333rem;
+            height: .426667rem;
+            background-color: #d33a31;
+        }
+
+        .home-recommend__product {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+
+            .product-message {
+                width: 33%;
+                padding-bottom: .426667rem;
+                position: relative;
+                overflow: hidden;
+                text-align: center;
+                .product-img {
+                    height: 3.253333rem;
+                    margin: 0 -100%;
+                }
+
+                .product-name {
+                    padding: 0rem .053333rem 0 .16rem;
+                    line-height: .4rem;
+                    font-size: .346667rem;
+                    text-align: left;
+                }
+
+                .product-times {
+                    position: absolute;
+                    right: .133333rem;
+                    top: .053333rem;
+                    z-index: 3;
+                    padding-left: .346667rem;
+                    color: #fff;
+                    text-shadow: 1px 0 0 rgba(0, 0, 0, .15);
+
+                }
+            }
+        }
+
+        .home-recommend__music {
+            width: 100%;
+
+            .music-item {
+                padding-left: .266667rem;
+                display: block;
+
+                .warp {
+                    display: flex;
+                    position: relative;
+                    // border-bottom: .026667rem solid rgba(0, 0, 0, .1);
+                    
+ 
+                    &::after {
+                        content: "  ";
+                        width: 200%;
+                        height: 200%;
+                        position: absolute;
+                        z-index: 999;
+                        top: 0;
+                        left: 0;
+                        transform-origin: top left; //变形基点
+                        border-bottom: .013333rem solid rgba(0, 0, 0, .1);
+                        transform: scale(.5);
+                        // box-sizing: border-box;
+                    }
+
+                    .music-message {
+                        padding: .16rem 0;
+                        flex: 1 1 auto;
+                        overflow: hidden;
+
+                        .title {
+                            overflow: hidden;
+                            /*超出长度的文字隐藏*/
+                            white-space: nowrap;
+                            /*强制不换行*/
+                            font-size: .453333rem;
+                            text-overflow: ellipsis;
+
+                            /*文字隐藏以后添加省略号*/
+                            span {
+                                color: #888;
+                                overflow: hidden;
+
+                            }
+                        }
+                        .singer {
+                            font-size: .32rem;
+                            color: #888;
+                        }
+                    }
+
+                    .palyer {
+                        padding: 0 .266667rem;
+                        display: flex;
+                        align-items: center;
+
+                        .bg {
+                            display: inline-block;
+                            width: .586667rem;
+                            height: .586667rem;
+                            background: url(../../static/images/index_icon_2x.png) no-repeat;
+                            background-size: 4.426667rem 2.586667rem;
+                            background-position: -0.64rem 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .footer {
+        position: relative;
+        width: 100%;
+        padding-top: 53.3%;
+        background: url(../../static/images/recommand_bg_2x.png)no-repeat;
+        background-size: contain;
+
+        .warp {
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            text-align: center;
+
+            .logo-warp {
+                padding-top: 15%;
+
+                img {
+                    width: 1.12rem;
+                    vertical-align: middle;
+                    padding-right: .266667rem;
+
+                }
+
+                .logoname {
+                    font-size: 0.96rem;
+                    vertical-align: middle;
+                    display: inline-block;
+                }
+            }
+
+            .openapp {
+                width: 8rem;
+                display: inline-block;
+                border: .026667rem solid #d33a31;
+                color: #d33a31;
+                font-size: .426667rem;
+                line-height: 1.013333rem;
+                margin: .4rem 0 .133333rem;
+                border-radius: 1.013333rem;
+            }
+
+            .copyright {
+                color: #888;
+                font-size: .32rem;
+                line-height: .426667rem;
+                transform: scale(.75);
+            }
+
+        }
+    }
+}
+

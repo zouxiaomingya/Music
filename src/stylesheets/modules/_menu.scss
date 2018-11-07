@@ -1,0 +1,457 @@
+.menu-wrap {
+    width: 100%;
+    height: 100%;
+    background-color: #f8f8f8;
+    min-height: 100%;
+    .menu-container {
+        width: 100%;
+
+        .menu-header {
+            position: relative;
+            padding: .8rem .266666rem .8rem .4rem;
+            overflow: hidden;
+
+            .header-bg {
+                background-image: url(//music.163.com/api/img/blur/109951163605819623?param=170y170);
+                filter: blur(.533333rem);
+                -webkit-filter: blur(.533333rem);
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: 50%;
+                position: absolute;                               
+                left: 0;
+                top: 0;
+                right: 0;
+                bottom: 0;
+                z-index: 1;
+                -webkit-transform: scale(1.5);
+                transform: scale(1.5);
+                &::after {
+                    content: " ";
+                    background-color: rgba(0, 0, 0, .25);
+                    position: absolute;
+                    left: 0;
+                    top: 0;
+                    right: 0;
+                    bottom: 0;
+                    z-index: 1;
+                }
+            }
+
+            .header-wrap {
+                display: flex;
+                position: relative;
+                z-index: 2;
+
+                .header-fleft {
+                    position: relative;
+                    background-color: #e2e2e3;
+                    height: 3.36rem;
+                    width: 3.36rem;
+                    overflow: hidden;
+                    text-align: center;
+                    .header-img {
+                        vertical-align: middle;
+                        text-align: center;
+                        height:3.36rem;
+                        margin: 0 -100%;
+                    }
+
+                    .span {
+                        position: absolute;
+                        z-index: 3;
+                        top: .266667rem;
+                        left: 0;
+                        padding: 0 .213333rem;
+                        height: .453333rem;
+                        color: #fff;
+                        font-size: .36rem;
+                        text-align: center;
+                        line-height: .453333rem;
+                        background-color: rgba(217, 48, 48, .8);
+                        border-top-right-radius: .453333rem;
+                        border-bottom-right-radius: .453333rem;
+                    }
+
+                    .i {
+                        position: absolute;
+                        right: .053333rem;
+                        top: 0;
+                        z-index: 3;
+                        padding-left: .4rem;
+                        color: #fff;
+                        font-size: .32rem;
+                        background-position: 0;
+                        background-repeat: no-repeat;
+                        background-size: .293333rem .266667rem;
+                        text-shadow: .026667rem 0 0 rgba(0, 0, 0, .15);
+                    }
+                }
+
+                .header-fright {
+                    margin-left: .426667rem;
+
+                    .header-title {
+                        padding-top: .026667rem;
+                        font-size: .453333rem;
+                        line-height: 2.6;
+                        color: #fefefe;
+                        height: 1.173333rem;
+
+                        overflow: hidden;
+                        word-break: break-all;
+                    }
+
+                    .header-from {
+                        margin-top: .533333rem;
+
+                        a {
+                            display: inline-block;
+                            color: hsla(0, 0%, 100%, .7);
+                            font-size: .373333rem;
+
+                            .from-img-box {
+                                display: inline-block;
+                                width: .8rem;
+                                height: .8rem;
+                                border-radius: 50%;
+                                border: solid .026667rem rgba(255, 255, 255, 0);
+                                vertical-align: middle;
+
+                                overflow: hidden;
+
+                                .from-img {
+                                    width: 100%;
+                                    height: 100%;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .menu-intro {
+
+            position: relative;
+            margin: 0 .266667rem 0 .4rem;
+            padding-top: .266667rem;
+            line-height: .506667rem;
+            color: #666;
+
+            .intro-tag {
+                margin-bottom: .266667rem;
+                line-height: .533333rem;
+                margin-right: -0.266667rem;
+
+                .tag-item {
+                    position: relative;
+                    display: inline-block;
+                    margin-right: .266667rem;
+                    padding: .026667rem .213333rem;
+                    font-size: .32rem;
+                    border: solid 1px rgba(0,0,0,.1);
+                    border-radius: .32rem;
+                    
+                }
+            }
+
+            .intro-abstract {
+                position: relative;
+                padding-bottom: .48rem;
+                word-wrap: break-word;
+                word-break: break-all;
+                white-space: normal;
+
+                .intro-content {
+                    line-height: .506667rem;
+                    color: #666;
+                    font-size: .373333rem;
+                }
+            }
+        }
+
+        .menu-mlist {
+            .mlist-title{
+                height: .613333rem;
+            line-height: .613333rem;
+            padding: 0 .266667rem;
+            font-size: .32rem;
+            color: #666;
+            background-color: #eeeff0;
+
+            }
+            .songs-list {
+                margin: 0;
+                padding: 0;
+                .songbox-item {
+                    display: flex;
+                    .songbox-fl{
+                        display: flex;
+                        -webkit-box-align: center;
+                        -webkit-align-items: center;
+                        align-items: center;
+                        -webkit-box-pack: center;
+                        -webkit-justify-content: center;
+                        justify-content: center;
+                        width: 1.066667rem;
+                        font-size: .453333rem;
+                        color: #999;
+                    }
+                    .songbox-fr{
+                        display: flex;
+                        flex: 1 1 auto;
+                        position: relative;
+                        border-bottom: solid 0.01333rem rgba(0,0,0,.1);
+                        .song-fl{
+                            padding: .16rem 0;
+                            width: 0;
+                            -webkit-box-flex: 1;
+                            -webkit-flex: 1 1 auto;
+                            flex: 1 1 auto;
+                            .song-name{
+                                    overflow: hidden;
+                                    text-overflow: ellipsis;
+                                    white-space: nowrap;
+                                    word-break: normal;
+                                        font-size: .453333rem;
+                            }
+                            .song-singer{
+                                    overflow: hidden;
+                                    text-overflow: ellipsis;
+                                    white-space: nowrap;
+                                    word-break: normal;
+                                        font-size: .32rem;
+                                        color: #888;
+                            }
+                        }
+                        .song-fr{
+                            display: -webkit-box;
+                            display: -webkit-flex;
+                            display: flex;
+                            -webkit-box-align: center;
+                            -webkit-align-items: center;
+                            align-items: center;
+                            padding: 0 .266667rem;
+                            .playbutton{
+                                    display: inline-block;
+                                    width: .586667rem;
+                                    height: .586667rem;
+                                    
+                                    background: url(//s3.music.126.net/m/s/img/index_icon_2x.png?5207a28) no-repeat;
+                                    background-size: 4.426667rem 2.586667rem;
+                                    background-position: -0.64rem 0;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .menu-talk {
+            margin-bottom:1.44rem;
+            .comments{
+                word-wrap: break-word;
+                word-break: break-all;
+                word-break: break-all!important;
+                word-break: break-word!important;
+                .cmt-list-title{
+                    margin: 0;
+                    padding: .106667rem .266667rem;
+                    color: #666;
+                    font-size: .32rem;
+                    font-weight: 400;
+                    background: rgba(0,0,0,.05);
+                }
+                .cmt-list{
+                    .cmt-item{
+                        padding-top: .266667rem;
+                        width: 100%;
+                        display: -webkit-flex;
+                        display: -webkit-box;
+                        display: flex;
+                        -webkit-flex-direction: row;
+                        -webkit-box-orient: horizontal;
+                        -webkit-box-direction: normal;
+                        flex-direction: row;
+                        .cmt-head{
+                            height: .933333rem;
+                            margin: 0 .266667rem;
+                            -webkit-flex: none;
+                            -webkit-box-flex: 0;
+                            flex: none;
+                            .userphoto{
+                                position: relative;
+                                display: block;
+                                .pimg{
+                                    display: block;
+                                    border-radius: 50%;
+                                    width: .8rem;
+                                    height: .8rem;
+                                }
+                                .vip-icon{
+                                    position: absolute;
+                                    right: -0.133333rem;
+                                    bottom: 0;
+                                    width: .32rem;
+                                    height: .32rem;
+                                    background-image: url(http://p4.music.126.net/l0FkWHfIqLav4I1oYHIyVQ==/19013854579518977.jpg);
+                                    background-repeat: no-repeat;
+                                    background-size: 2rem auto;
+                                    background-position: -1.066667rem 0;
+                                }
+                            }
+                        }
+                        .cmt-wrap{
+                            padding-right: .266667rem;
+                            padding-bottom: .293333rem;
+                            -webkit-flex: auto;
+                            -webkit-box-flex: 1;
+                            flex: auto;
+                            width: 0;
+                            border-bottom:solid .026667rem rgba(0,0,0,.1);
+                            .cmt-header{
+                                display: flex;
+                                flex-direction: row;
+                                .cmt-meta{
+                                    -webkit-flex: auto;
+                                    -webkit-box-flex: 1;
+                                    flex: auto;
+                                    width: 0;
+                                    font-size: 0;
+                                    .cmt-user{
+                                        max-width: 100%;
+                                        display: -webkit-inline-box;
+                                        display: -webkit-inline-flex;
+                                        display: inline-flex;
+                                        -webkit-box-align: center;
+                                        -webkit-align-items: center;
+                                        align-items: center;
+                                        .nickname{
+                                            font-size: .373333rem;
+                                            color: #666;
+                                            line-height: .533333rem;
+                                            overflow: hidden;
+                                            text-overflow: ellipsis;
+                                            white-space: nowrap;
+                                            -webkit-box-flex: 1;
+                                            -webkit-flex: auto;
+                                            flex: auto;
+                                        }
+                                    }
+                                    .cmt-time{
+                                        font-size: .24rem;
+                                        color: #999;
+                                    }
+                                }
+                                .cmt-like{
+                                    width: 1.733333rem;
+                                    height: .586667rem;
+                                    line-height: .586667rem;
+                                    font-size: .293333rem;
+                                    color: #999;
+                                    -webkit-flex: none;
+                                    -webkit-box-flex: 0;
+                                    flex: none;
+                                    text-align: right;
+                                    .cmt-likearea{
+                                        display: inline-block;
+                                        min-width: .8rem;
+                                        padding-left: .133333rem;
+                                        .cmt-count{
+                                            vertical-align: middle;
+                                        }
+                                        .cmt-likeicn{
+                                            display: inline-block;
+                                            width: .373333rem;
+                                            height: .373333rem;
+                                            margin-left: .16rem;
+                                            line-height: 0;
+                                            vertical-align: middle;
+                                            cursor: pointer;
+                                            .u-svg{
+                                                display: inline-block;
+                                                vertical-align: middle;
+                                                background-position: 0 0;
+                                                background-size: contain;
+                                                background-repeat: no-repeat;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                            .cmt-content{
+                                color: #333;
+                                font-size: .4rem;
+                                line-height: .586667rem;
+                                margin-top: .133333rem;
+                                .cmt-text{
+                                    vertical-align: middle;
+                                }
+                            }
+                        }
+
+                    }
+                }
+
+            }
+            .comments-more{
+                .box{
+                    display: block;
+                    margin:0 1.333333rem;
+                    padding: .48rem 0;
+                    font-size: .373333rem;
+                    color: #999;
+                    text-align: center;
+                    line-height: 1;
+                }
+            }
+        }
+
+        .menu-collect{
+            position: fixed;
+            background-color: #fff;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            z-index: 20;
+            padding: .186667rem .8rem;
+            .collect-button{
+                height:1.066667rem;
+                width:100%;
+                border-radius: .96rem;
+                
+                background-color: #d33a31;
+                border-color: #d33a31;
+                line-height: 1.066667rem;
+                font-size: .426667rem;
+                text-align: center;
+                a{
+                    color: #fff;
+                }
+                .footer-img{
+                    display: inline-block;
+                    position: relative;
+                    top: .133333rem;
+                    width: .76rem;
+                    height: .673333rem;
+                    margin-right: .056667rem;
+                    
+                }
+                
+                
+            }
+        }
+    }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+}

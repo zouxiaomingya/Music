@@ -1,0 +1,35 @@
+<div class="hot">
+    <div class="hot-warp">
+        <div class="hot-banner">
+            <div class="hot-box">
+                <div class="hot-logo">
+                </div>
+                <div class="hot-update">更新时间: <span>10月18日</span></div>
+            </div>
+        </div>
+        <div class="hot-recommend__music">
+           {{#each hot_list}}
+            <a class="music-item" href="../../play.html" singer = '{{this.artistname}}' Url = '{{this.url}}' imgUrl = '{{this.picUrl}}' music='{{this.albumname}}'>
+                <div class="warp">
+                    <div class="ranking">{{this.id}}</div>
+                    <div class="music-message">
+                        <p class="title">
+                            {{this.albumname}}
+                            <span> {{this.alia}}</span>
+                        </p>
+                        <p class="singer">
+                            {{this.artistname}}-{{this.come}}
+                        </p>
+                    </div>
+                    <div class="palyer">
+                        <p></p>
+                    </div>
+                </div>
+            </a>
+            {{/each}}
+        </div>
+        <div class="lookmore">查看完整榜单</div>
+     
+    </div>
+</div>
+
